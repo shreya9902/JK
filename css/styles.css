@@ -1,6 +1,6 @@
 body{
   background-color: white;
-  color: white;
+  color:#0D0C17;
 }
  #title{
 background-image: url("https://wallpapercave.com/wp/wp3481936.jpg");
@@ -9,7 +9,7 @@ background-repeat:no-repeat;
 padding-bottom: 3%;
 }
 
-@media(max-width:1028px){
+/* @media(max-width:1028px){
 
   #title{
     text-align: center;
@@ -17,7 +17,7 @@ padding-bottom: 3%;
   #image1{
     padding-left:0;
   }
-}
+} */
 /* Title */
 h1{
   font-family: 'Italiana', serif;
@@ -125,25 +125,13 @@ h1{
   text-align: left;
   padding-left: 6%;
   padding-right: 4%;
+  padding-bottom:7%;
 }
 .row-items{
   align-items: center;
   padding: 3% 15%;
-}
-@media(max-width:1246px){
+  margin:0;
 
-  .col-items{
-    text-align: center;
-
-}
-}
-.favourites-items-head{
-font-weight: 400;
-font-size: 1.5rem;
-padding-bottom:1.5rem;
-}
-.favourites-images{
-  padding-bottom: 4.375rem;
 }
 
 .view{
@@ -245,4 +233,44 @@ padding:5% 15% 3%;
   padding:2%;
   color:#0D0C17 ;
   size:24px;
+}
+
+@media(max-width:1246px){
+
+  .col-items{
+    text-align: center;
+
+}
+#title{
+  text-align: center;
+}
+#image1{
+  padding-left:0;
+}
+
+.favourites-items-head{
+font-weight: 400;
+font-size: 2rem;
+padding-bottom:1.5rem;
+}
+.favourites-images{
+  padding-bottom: 2.5rem;
+}
+p{
+  font-size:1.5rem;
+}
+.about-image{
+  float:none;
+  padding-right:0;
+  text-align: center;
+}
+.content{
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 5% 2% 0 2%;
+  font-weight: 400;
+}
+.footer-copyright{
+  font-size: 0.6rem;
+}
 }
